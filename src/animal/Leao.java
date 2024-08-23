@@ -14,8 +14,8 @@ public class Leao extends AnimalTerrestreAB {
 
 	@Override
 	public void andar() {
-		distancia += 200;
-		System.out.println("O leão se moveu 150 metros.");
+		distancia += 800;
+		System.out.println("O leão se moveu 800 metros.");
 	}
 	
 	@Override

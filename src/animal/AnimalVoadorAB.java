@@ -18,10 +18,19 @@ public abstract class AnimalVoadorAB extends AnimalAB{
 	}
 	
 	@Override
-    public void exibir() {
-        super.exibir();
-        System.out.println("Quantidade de asas: " + quantidadeAsas);
-        System.out.println("Envergadura das asas: " + envergaduraAsas + " metros");
-    }
+	public String toString() {
+		return "Nome: " + nome + 
+				"\nTipo: " + tipo + 
+				"\nIdade: " + idade + " anos" +
+				"\nHabitat: " + habitat + 
+				"\nAltura: " + altura + " metros" +
+				"\nPeso: " + peso + " kg" +
+				"\nComida ingerida: " + comida + " gramas" +
+				"\nCaminho percorrido: " + distancia + " metros" +
+				"\nHoras dormidas: " + sono + " horas" +
+				"\nQuantidade de asas: " + quantidadeAsas +
+				"\nEnvergadura das asas: " + envergaduraAsas + " metros";
+				
+	}
 	
 }

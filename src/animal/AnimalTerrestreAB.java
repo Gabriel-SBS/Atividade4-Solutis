@@ -16,10 +16,18 @@ public abstract class AnimalTerrestreAB extends AnimalAB {
 		andar();
 	}
 	
-	 @Override
-	    public void exibir() {
-	        super.exibir();
-	        System.out.println("Quantidade de patas: " + quantidadePatas);
-	    }
+	@Override
+	public String toString() {
+			return "Nome: " + nome + 
+					"\nTipo: " + tipo + 
+					"\nIdade: " + idade + " anos" +
+					"\nHabitat: " + habitat + 
+					"\nAltura: " + altura + " metros" +
+					"\nPeso: " + peso + " kg" +
+					"\nComida ingerida: " + comida + " gramas" +
+					"\nCaminho percorrido: " + distancia + " metros" +
+					"\nHoras dormidas: " + sono + " horas" +
+					"\nQuantidade de patas: " + quantidadePatas;
+	}
 }
 

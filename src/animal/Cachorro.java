@@ -23,4 +23,5 @@ public class Cachorro extends AnimalTerrestreAB {
 		distancia += 100;
 		System.out.println("O cachorro se moveu 100 metros.");	
 	}
+	
 }

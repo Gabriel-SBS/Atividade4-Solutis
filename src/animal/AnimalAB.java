@@ -33,21 +33,5 @@ public abstract class AnimalAB implements AnimalIF {
 
 	@Override
 	public abstract void dormir();
-	
-	@Override
-    public abstract String toString();
-	
-	public void exibir() {
-		System.out.println("Nome: " + nome);
-        System.out.println("Tipo: " + tipo);
-        System.out.println("Idade: " + idade + " anos");
-        System.out.println("Habitat: " + habitat);
-        System.out.println("Altura: " + altura + " metros");
-        System.out.println("Peso: " + peso + " kg");
-		System.out.println("Comida ingerida: " + comida + " gramas");
-        System.out.println("Caminho percorrido: " + distancia + " metros");
-        System.out.println("Horas dormidas: " + sono + " horas");
-        System.out.println();
-	}
 
 }

@@ -14,8 +14,8 @@ public class Elefante extends AnimalTerrestreAB {
 
 	@Override
 	public void andar() {
-		distancia += 200;
-		System.out.println("O elefante se moveu 200 metros.");
+		distancia += 500;
+		System.out.println("O elefante se moveu 500 metros.");
 	}
 	
 	@Override
