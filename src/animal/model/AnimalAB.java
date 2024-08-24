@@ -1,4 +1,4 @@
-package animal;
+package animal.model;
 
 public abstract class AnimalAB implements AnimalIF {
 	
@@ -33,5 +33,18 @@ public abstract class AnimalAB implements AnimalIF {
 
 	@Override
 	public abstract void dormir();
+	
+	@Override
+	public String toString() {
+		return "Nome: " + nome + 
+				"\nTipo: " + tipo + 
+				"\nIdade: " + idade + " anos" +
+				"\nHabitat: " + habitat + 
+				"\nAltura: " + altura + " metros" +
+				"\nPeso: " + peso + " kg" +
+				"\nComida ingerida: " + comida + " gramas" +
+				"\nCaminho percorrido: " + distancia + " metros" +
+				"\nHoras dormidas: " + sono + " horas";
+	}
 
 }

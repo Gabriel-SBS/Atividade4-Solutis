@@ -1,4 +1,4 @@
-package animal;
+package animal.model;
 
 public abstract class AnimalTerrestreAB extends AnimalAB {
 
@@ -18,16 +18,8 @@ public abstract class AnimalTerrestreAB extends AnimalAB {
 	
 	@Override
 	public String toString() {
-			return "Nome: " + nome + 
-					"\nTipo: " + tipo + 
-					"\nIdade: " + idade + " anos" +
-					"\nHabitat: " + habitat + 
-					"\nAltura: " + altura + " metros" +
-					"\nPeso: " + peso + " kg" +
-					"\nComida ingerida: " + comida + " gramas" +
-					"\nCaminho percorrido: " + distancia + " metros" +
-					"\nHoras dormidas: " + sono + " horas" +
-					"\nQuantidade de patas: " + quantidadePatas;
-	}
+        return super.toString() +
+               "\nQuantidade de Patas: " + quantidadePatas;
+    }
 }
 

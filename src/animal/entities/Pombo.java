@@ -1,9 +1,11 @@
-package animal;
+package animal.entities;
+
+import animal.model.AnimalVoadorAB;
 
 public class Pombo extends AnimalVoadorAB {
 
-	public Pombo(String nome, int idade, String habitat, double altura, double peso, double envergaduraAsas) {
-        super(nome, "Pombo", idade, habitat, altura, peso, 2, envergaduraAsas);
+	public Pombo(String nome, int idade, String habitat, double altura, double peso, double envergaduraAsas, int quantidadePatas) {
+        super(nome, "Pombo", idade, habitat, altura, peso, 2, envergaduraAsas, quantidadePatas);
     }
 	
 	@Override

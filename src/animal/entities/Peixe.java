@@ -1,9 +1,11 @@
-package animal;
+package animal.entities;
+
+import animal.model.AnimalMarinhoAB;
 
 public class Peixe extends AnimalMarinhoAB {
 
-	public Peixe(String nome, int idade, String habitat, double altura, double peso) {
-        super(nome, "Peixe", idade, habitat, altura, peso);
+	public Peixe(String nome, int idade, String habitat, double altura, double peso, int quantidadePatas) {
+        super(nome, "Peixe", idade, habitat, altura, peso, quantidadePatas);
     }
 	
 	@Override

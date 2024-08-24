@@ -1,4 +1,6 @@
-package animal;
+package animal.entities;
+
+import animal.model.AnimalTerrestreAB;
 
 public class Elefante extends AnimalTerrestreAB {
 	
